@@ -1,0 +1,18 @@
+# Go build/test cache and binaries
+.gocache/
+bin/
+*.test
+
+# Native build outputs
+plugins/ranking-engine/lib/
+*.dylib
+*.so
+*.a
+
+# Xcode user/local state
+*.xcuserstate
+*.xcuserdata/
+DerivedData/
+
+# macOS noise
+.DS_Store
